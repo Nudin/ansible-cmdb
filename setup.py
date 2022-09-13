@@ -29,7 +29,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 setup(
-    name='ansible-cmdb',
+    name='rami-ansible-cmdb',
     version=get_version(),
     license='GPLv3',
     description='Generate host overview from ansible fact gathering output',
